@@ -1,0 +1,161 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+    display: block;
+}
+
+.topLogo {
+    float: left;
+    padding-left: 10px;
+    height: 50px;
+    
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: underline;
+    margin-right: 20px;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.containerTwo {
+    max-width: 1000px;
+    margin: 75px auto;
+}
+
+.containerThree {
+    max-height: 500px;
+    max-width: 1200px;
+    margin-top: 75px;
+    margin-bottom: 0;
+}
+
+#missionStatement {
+    height: 700px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(resources/img-mission-background.webp);
+}
+
+.mission {
+    background-color: black;
+    align-items: center;
+    margin: auto 0;
+}
+
+.mission h2,
+.mission h4 {
+    margin: 10px;
+}
+
+.teaList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.teaItem img {
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    
+}
+
+.containerTwo h2 {
+    margin: 10px;
+}
+
+.containerTwo h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#locations {
+    height: 500px;
+    margin-bottom: 0;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(resources/img-locations-background.webp);
+}
+
+#locations h2 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.locationList {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.locationItem {
+    height: 300px;
+    width: 300px;
+    margin: 0 20px;
+    opacity: 1;
+    background-color: black;
+    
+}
+
+#locations h3 {
+    font-size: .95em;
+    margin: 35px auto;
+}
+
+#contact {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact h5 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
